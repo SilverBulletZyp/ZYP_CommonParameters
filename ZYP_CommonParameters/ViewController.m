@@ -18,8 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     ZYP_CommonParameters *instance = [ZYP_CommonParameters shareInstance];
-    NSString *string = [instance getUUID];
-    NSLog(@"string = %@",string);
+    NSDictionary *dic = [instance getInfoDictionary];
+    NSLog(@"dic = %@",dic);
     
 }
 

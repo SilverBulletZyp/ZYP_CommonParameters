@@ -12,10 +12,34 @@
 
 + (instancetype)shareInstance;
 
-
-/** 获得IDFA */
+/** 获取IDFA */
 - (NSString *)getIDFA;
 
+/** 获取UUID */
 - (NSString *)getUUID;
+
+/** 获取设备名称 */
+- (NSString *)getDeviceName;
+
+/** 获取手机系统版本 */
+- (NSString *)phoneVersion;
+
+/** 获取设备基本信息 */
+- (NSDictionary *)getInfoDictionary;
+
+/** 获取应用名称 */
+- (NSString *)getAppName;
+
+/** 获取应用版本 */
+- (NSString *)getAppVersion;
+
+/** 获取应用构建版本 */
+- (NSString *)getAppVersionNumber;
+
+/** 获取应用Bundle ID */
+- (NSString *)getAppBundleIdentifier;
+
+
+
 
 @end
