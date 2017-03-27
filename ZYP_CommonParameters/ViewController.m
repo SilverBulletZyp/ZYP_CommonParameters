@@ -17,9 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    ZYP_CommonParameters *instance = [ZYP_CommonParameters shareInstance];
-    NSDictionary *dic = [instance getInfoDictionary];
-    NSLog(@"dic = %@",dic);
+    NSLog(@"%@",[ZYP_CommonParameters getMacAddress]);
+//    NSLog(@"%@",[ZYP_CommonParameters getPhoneVersion]);
+
     
 }
 
